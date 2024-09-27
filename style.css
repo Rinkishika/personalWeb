@@ -1,0 +1,51 @@
+* {
+  /* outline: 1px dashed red; */
+}
+.Background {
+  background-image: linear-gradient(
+    to right,
+    rgb(131, 0, 113),
+    rgb(250, 113, 136)
+  );
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+.Mi-theader img {
+  width: 80px;
+  height: 80px;
+}
+/* Mira Photo */
+img[src="images/mira.jpg"] {
+  width: 50%;
+  height: 50vh;
+  border-radius: 8px;
+}
+#Mi-AboutMe {
+  font-size: 5vw;
+  margin-top: 50px;
+  -webkit-text-stroke: 3px rgb(0, 0, 0);
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: rgba(0, 0, 0, 0);
+}
+.Mi-info {
+  border-radius: 5px;
+  background-color: #ffffff05;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(25px);
+  box-shadow: 0 0 12px rgb(0, 0, 0);
+}
+.Mi-logo img {
+  width: 100px;
+  height: 100px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
